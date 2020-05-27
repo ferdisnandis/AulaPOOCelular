@@ -30,30 +30,6 @@ public bool FazerLigacao(){
             }else{
             return ligado;
             }
+} 
 }
-/// <summary>
-/// Enviar mensagem
-/// </summary>
-/// <returns>Texto de mensagem enviada</returns>
-//public bool mensagem(){
-    //if(ligado == true){
-      //  return ligado;
-    //}else{
-        //return desligado;
-    //}
-//}
-
-/// <summary>
-/// Fazer ligação
-/// </summary>
-/// <returns>Texto de ligação feita</returns>
-//public bool ligacao(){
-  //  if(ligado == true){
-    //    return ligado;
-    //}else{
-      //  return desligado;
-  //  }
-//}
-
-    }
 }
