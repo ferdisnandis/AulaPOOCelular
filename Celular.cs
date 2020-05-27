@@ -7,20 +7,13 @@ namespace Aula_POO_Celular
         public int tamanho;
         public bool ligado;
         public bool desligado;
-
-public bool Traduz(string condicao){
-                if(condicao == "sim"){
-                    ligado = true;
-                }else{
-                    ligado = false;
-                }
-                return ligado;
-            }
+        public bool mensagem;
+        public bool ligacao;
 /// <summary>
 /// Saber se é possivel mandar mensagem
 /// </summary>
 /// <returns>Tela ligada ou não</returns>
-public bool mensagem(){
+public bool MandarMensagem(){
     if(ligado == false){
         return ligado;
     }else{
@@ -31,13 +24,36 @@ public bool mensagem(){
 /// Saber se é possivel fazer ligação
 /// </summary>
 /// <returns>Tela ligada ou não</returns>
-public bool ligacao(){
+public bool FazerLigacao(){
             if(ligado == false){
             return desligado;
             }else{
             return ligado;
             }
-            
 }
+/// <summary>
+/// Enviar mensagem
+/// </summary>
+/// <returns>Texto de mensagem enviada</returns>
+//public bool mensagem(){
+    //if(ligado == true){
+      //  return ligado;
+    //}else{
+        //return desligado;
+    //}
+//}
+
+/// <summary>
+/// Fazer ligação
+/// </summary>
+/// <returns>Texto de ligação feita</returns>
+//public bool ligacao(){
+  //  if(ligado == true){
+    //    return ligado;
+    //}else{
+      //  return desligado;
+  //  }
+//}
+
     }
 }

@@ -15,8 +15,12 @@ namespace Aula_POO_Celular
             iphoneXR.ligado = Boolean.Parse(Console.ReadLine());
 
             iphoneXR.desligado = false;
-            Console.WriteLine("Fazer ligação: "+iphoneXR.ligacao());
-            Console.WriteLine("Mandar mensagem: "+iphoneXR.mensagem());
+
+            Console.WriteLine("Usar Mensagem?");
+            iphoneXR.mensagem = Boolean.Parse(Console.ReadLine());
+
+            Console.WriteLine("Fazer ligação?");
+            iphoneXR.ligacao = Boolean.Parse(Console.ReadLine());
         }
     }
 }
